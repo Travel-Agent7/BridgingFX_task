@@ -26,11 +26,12 @@
                                 <td>{{ $submission->name }}</td>
                                 <td>{{ $submission->email }}</td>
                                 <td>{{ $submission->subject }}</td>
-                                <td>
+                                <td>{{ $submission->message }}</td>
+                                {{-- <td>
                                     <div class="message-container" {{ $submission->message }}>
                                         {{ Str::limit($submission->message, 50) }}
                                     </div>
-                                </td>
+                                </td> --}}
                                 <td>
                                     <a href="{{ route('admin.show', $submission->id) }}" class="btn btn-info btn-sm">
                                         View Details

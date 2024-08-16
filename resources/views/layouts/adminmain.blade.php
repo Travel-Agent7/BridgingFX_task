@@ -114,9 +114,15 @@
         $(document).ready(function() {
             var table = $('#example').DataTable({
                 dom: 'lfrtBip',
-                buttons: [
-                    'csv'
-                ]
+                buttons: [{
+                    extend: 'csv',
+                    text: 'Export to CSV',
+                    exportOptions: {
+                        columns: function(idx, data, node) {
+                            return idx !== 4;
+                        }
+                    }
+                }]
             });
         });
     </script>
