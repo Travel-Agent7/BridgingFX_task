@@ -58,7 +58,7 @@
             <p>Please review and take the necessary action.</p>
         </div>
         <div class="email-footer">
-            <p>&copy; {{ date('Y') }} Bringingfx_Task. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Bridgingfx_Task. All rights reserved.</p>
         </div>
     </div>
 </body>
