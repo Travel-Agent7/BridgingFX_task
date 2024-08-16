@@ -33,7 +33,7 @@ Route::get('/', function () {
 Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/admin/dashboard', [AdminController::class, 'dashboard']);
     Route::get('/admin/dashboard/{id}', [AdminController::class, 'show'])->name('admin.show');
-    // Add more admin routes here
+    
 });
 Route::post('/contact', [ContactFormController::class, 'store'])->name('contact.store');
 require __DIR__ . '/auth.php';
