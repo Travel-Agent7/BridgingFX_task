@@ -60,7 +60,7 @@
                 <li><strong>Message:</strong> {{ $submission->message }}</li>
             </ul> --}}
             <p>Best regards,</p>
-            <p>Bringingfx_Task</p>
+            <p>Bridgingfx_Task Team</p>
         </div>
         <div class="email-footer">
             <p>&copy; {{ date('Y') }} Bridgingfx_Task. All rights reserved.</p>
