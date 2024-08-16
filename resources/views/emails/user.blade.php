@@ -63,7 +63,7 @@
             <p>Bringingfx_Task</p>
         </div>
         <div class="email-footer">
-            <p>&copy; {{ date('Y') }} Bringingfx_Task. All rights reserved.</p>
+            <p>&copy; {{ date('Y') }} Bridgingfx_Task. All rights reserved.</p>
         </div>
     </div>
 </body>
